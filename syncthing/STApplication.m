@@ -267,12 +267,16 @@
         return;
     }
 
-    _preferencesWindow = [[STPreferencesWindowController alloc] init];
-    [_preferencesWindow showWindow:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(preferencesWillClose:)
-                                                 name:NSWindowWillCloseNotification
-                                               object:[_preferencesWindow window]];
+    NSStoryboard *storyBoard = [NSStoryboard storyboardWithName:@"Preferences" bundle:nil];
+    NSWindowController *win = [storyBoard instantiateControllerWithIdentifier:@"preferencesWindow"];
+    [win showWindow:self];
+//
+//    _preferencesWindow = [[STPreferencesWindowController alloc] init];
+//    [_preferencesWindow showWindow:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(preferencesWillClose:)
+//                                                 name:NSWindowWillCloseNotification
+//                                               object:[_preferencesWindow window]];
 }
 
 - (IBAction)clickedAbout:(NSMenuItem *)sender {

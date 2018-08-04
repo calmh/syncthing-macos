@@ -23,6 +23,8 @@
 
 /* Begin PBXBuildFile section */
 		0BE9B88A1F050E93002883E2 /* STStatusMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9B8891F050E93002883E2 /* STStatusMonitor.m */; };
+		292710242115912A0083C822 /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292710232115912A0083C822 /* Preferences.storyboard */; };
+		29271026211591860083C822 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29271025211591860083C822 /* Preferences.swift */; };
 		298A5C45210DA6C40034B89F /* LocalhostTLSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A5C43210DA6C40034B89F /* LocalhostTLSDelegate.m */; };
 		29AF1BA3210F11BF004212DE /* DaemonProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFA4CD210F10FA00071E5E /* DaemonProcess.swift */; };
 		29AFA4CF210F10FB00071E5E /* DaemonProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFA4CD210F10FA00071E5E /* DaemonProcess.swift */; };
@@ -90,6 +92,8 @@
 /* Begin PBXFileReference section */
 		0BE9B8881F050E93002883E2 /* STStatusMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStatusMonitor.h; sourceTree = "<group>"; };
 		0BE9B8891F050E93002883E2 /* STStatusMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStatusMonitor.m; sourceTree = "<group>"; };
+		292710232115912A0083C822 /* Preferences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Preferences.storyboard; sourceTree = "<group>"; };
+		29271025211591860083C822 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		298A5C43210DA6C40034B89F /* LocalhostTLSDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalhostTLSDelegate.m; path = syncthing/LocalhostTLSDelegate.m; sourceTree = "<group>"; };
 		298A5C44210DA6C40034B89F /* LocalhostTLSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalhostTLSDelegate.h; path = syncthing/LocalhostTLSDelegate.h; sourceTree = "<group>"; };
 		29AF1BA4210F11DE004212DE /* syncthing-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "syncthing-Bridging-Header.h"; path = "syncthing/syncthing-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -324,6 +328,8 @@
 				C46500101DA116D400C250BC /* STPreferencesWindow */,
 				C4A4156B1D0D579D00DC6018 /* STApplication.xib */,
 				C4946B001D5877F2008447A2 /* STAboutWindowController.xib */,
+				292710232115912A0083C822 /* Preferences.storyboard */,
+				29271025211591860083C822 /* Preferences.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -452,6 +458,7 @@
 				C4F0E8341DA1C7A800435310 /* STPreferencesFoldersViewController.xib in Resources */,
 				C4460A831D0DD38F00200C21 /* STPreferencesWindowController.xib in Resources */,
 				C4946B011D5877F2008447A2 /* STAboutWindowController.xib in Resources */,
+				292710242115912A0083C822 /* Preferences.storyboard in Resources */,
 				C4F0E82F1DA1B9CF00435310 /* STPreferencesGeneralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,6 +568,7 @@
 			files = (
 				C4D567A21D3A8DFE002AD881 /* STLoginItem.m in Sources */,
 				29AF1BA3210F11BF004212DE /* DaemonProcess.swift in Sources */,
+				29271026211591860083C822 /* Preferences.swift in Sources */,
 				C4FFB0661D0D7F870015D14A /* XGSyncthing.m in Sources */,
 				298A5C45210DA6C40034B89F /* LocalhostTLSDelegate.m in Sources */,
 				C4F0E8331DA1C7A800435310 /* STPreferencesFoldersViewController.m in Sources */,
